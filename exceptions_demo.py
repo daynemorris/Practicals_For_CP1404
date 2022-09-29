@@ -1,5 +1,6 @@
 """
 CP1404 - Exceptions Demo
+Dayne Morris
 """
 try:
     numerator = int(input("Enter the numerator: "))
