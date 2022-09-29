@@ -1,3 +1,8 @@
+"""
+CP1404 - Files
+Dayne Morris
+"""
+
 NAME_FILE = "name_file.txt"
 
 # User enters name and is stored in the file "name_file.txt"
