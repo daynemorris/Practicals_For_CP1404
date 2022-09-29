@@ -19,7 +19,7 @@ out_file = open(OUTPUT_FILE, 'w')
 price = INITIAL_PRICE
 print("${:,.2f}".format(price))
 
-while price >= MIN_PRICE and price <= MAX_PRICE:
+while MIN_PRICE <= price <= MAX_PRICE:
     price_change = 0
     days_elapsed = days_elapsed + 1
     # generate a random integer of 1 or 2
